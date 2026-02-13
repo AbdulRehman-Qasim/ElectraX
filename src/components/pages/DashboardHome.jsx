@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaPaperPlane } from "react-icons/fa";
-import logo1 from "../../assets/logo1.PNG"; // adjust path as needed
+import logo1 from "../../assets/logo1.png"; // adjust path as needed
 
 export default function DashboardHome() {
   const [input, setInput] = useState("");
