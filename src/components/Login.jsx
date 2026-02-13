@@ -5,7 +5,7 @@ import {
   EnvelopeIcon,
   KeyIcon,
 } from "@heroicons/react/24/outline";
-import logo from "../assets/logo.PNG"; // ✅ your logo
+import logo from "../assets/logo.png"; // ✅ your logo
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
