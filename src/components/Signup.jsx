@@ -8,7 +8,7 @@ import {
   KeyIcon,
   UserPlusIcon,
 } from "@heroicons/react/24/outline";
-import logo from "../assets/logo.PNG"; // ✅ import your logo
+import logo from "../assets/logo.png"; // ✅ import your logo
 
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);
