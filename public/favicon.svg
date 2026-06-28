@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="boltGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#111827" />
+  <path 
+    d="M315.3 16.3c-4.1-12.7-17.7-19.3-30.2-14.7L68.8 80.9c-11.4 4.2-18.7 15.6-17.8 27.8s9.6 22.4 21.2 25.1l111.4 25.4-87.5 131.2c-5.8 8.6-6.3 19.8-1.3 28.9s13.7 14.5 24.1 14.2l126.8-3.4-38.6 164.2c-3.1 13.2 5.1 26.5 18.3 29.6s26.5-5.1 29.6-18.3L342 278.4c4-17-7-33.8-24.1-36.4L183.1 223l84.6-126.9c5.8-8.6 6.3-19.8 1.3-28.9s-13.7-14.5-24.1-14.2l-123.6 3.3 179.3-64.8c12.5-4.5 18.9-18.3 14.7-31z"
+    fill="url(#boltGradient)" 
+    filter="url(#glow)"
+    transform="translate(80, 20) scale(0.85)"
+  />
+  <path 
+    d="M240 100 L320 230 L220 250 L270 420 L160 270 L250 250 Z" 
+    fill="url(#boltGradient)" 
+    filter="url(#glow)"
+    transform="translate(20, -10)"
+  />
+</svg>
