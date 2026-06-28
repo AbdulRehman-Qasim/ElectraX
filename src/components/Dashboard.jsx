@@ -71,7 +71,7 @@ export default function Dashboard() {
                   to={item.path}
                   className={`flex items-center gap-2 px-3 py-2 rounded-md no-underline transition-colors
                     ${active
-                      ? "text-blue-600 bg-blue-50"
+                      ? "text-yellow-600 bg-yellow-50"
                       : "text-black hover:bg-gray-200"
                     }`}
                 >
@@ -119,7 +119,7 @@ export default function Dashboard() {
                     onClick={() => setSidebarOpen(false)}
                     className={`flex items-center gap-2 px-3 py-2 rounded-md no-underline transition-colors
                       ${active
-                        ? "text-blue-600 bg-blue-50"
+                        ? "text-yellow-600 bg-yellow-50"
                         : "text-black hover:bg-gray-200"
                       }`}
                   >

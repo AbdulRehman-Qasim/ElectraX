@@ -17,7 +17,7 @@ export default function DashboardHome() {
       {/* Navbar */}
       <div className="w-full flex justify-between items-center px-2 py-3 border-b border-gray-200 bg-white shadow-sm sticky top-0 z-10">
         <h1 className="text-lg font-bold text-black">Dashboard</h1>
-        <h1 className="text-lg font-bold text-blue-700">Electra X</h1>
+        <h1 className="text-lg font-bold text-yellow-500">Electra X</h1>
       </div>
 
       {/* Body */}
@@ -33,7 +33,7 @@ export default function DashboardHome() {
             className="flex-1 text-sm bg-transparent border-none outline-none focus:ring-0"
           />
           <FaPaperPlane
-            className="text-blue-600 text-lg cursor-pointer ml-2"
+            className="text-yellow-500 text-lg cursor-pointer ml-2"
             onClick={handleSend}
           />
         </div>

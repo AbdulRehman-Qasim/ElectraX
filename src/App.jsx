@@ -5,6 +5,10 @@ import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import Features from "./components/Features"; 
 import Pricing from "./components/Pricing";   
+import Support from "./components/Support";
+import Privacy from "./components/Privacy";
+import Terms from "./components/Terms";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
         {/* Pages */}
         <Route path="/features" element={<Features />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* Protected/User Dashboard with nested routes */}
         <Route path="/dashboard/*" element={<Dashboard />} />
