@@ -2,9 +2,8 @@
   "compilerOptions": {
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./",
     "paths": {
-      "@app/*": ["src/app/*"],
+      "@app/*": ["./src/app/*"],
       "@components/*": ["./src/components/*"],
       "@images/*": ["./src/images/*"],
       "@utils/*": ["./src/utils/*"],
